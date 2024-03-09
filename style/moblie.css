@@ -88,6 +88,7 @@ header .wrap .inner-bottum .btn-promo button:hover{
 }
 header .wrap .inner-bottum .btn-reco button{
     font-size: 14px;
+    color: #222;
     background-color: #FFF;
     border: 1px solid #2b2b2b;
     border-radius: 10000px;
@@ -95,6 +96,7 @@ header .wrap .inner-bottum .btn-reco button{
 }
 header .wrap .inner-bottum .btn-promo button{
     font-size: 14px;
+    color: #222;
     background-color: #FFF;
     border: 1px solid #2b2b2b;
     border-radius: 10000px;
