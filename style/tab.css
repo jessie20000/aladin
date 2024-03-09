@@ -67,7 +67,8 @@
     }
     .main-visual .mySwiper .swiper-wrapper .swiper-slide .txt h4{
         font-size: 24px;
-        padding-bottom: unset
+        padding-bottom: unset;
+        text-align: unset;
     }
     .main-visual .mySwiper .swiper-wrapper .swiper-slide .txt p{
         font-size: 14px;

@@ -148,31 +148,32 @@ header .wrap .inner-bottum .nav-opn button span {
 }
 .main-visual .mySwiper .swiper-wrapper .swiper-slide .txt{
     position: absolute;
+    width: 100%;
     bottom:0;
     left: 50%;
     transform: translateX(-50%);
     padding: 30px;
     text-wrap: nowrap;
     color: #fff;
-    display: flex;
-    flex-direction: column-reverse;
     gap: 12px;
     font-weight: 700;
 }
 .main-visual .mySwiper .swiper-wrapper .swiper-slide .txt h4{
+    text-align: center;
     font-size: 20px;
     padding-bottom: 10px;
     text-wrap: nowrap;
 }
 .main-visual .mySwiper .swiper-wrapper .swiper-slide .btn{
     margin: 0 auto;
-    display: flex;
-    align-items: center;
     gap: 8px;
     font-size: 12px;
+    display: flex;
+    justify-content: center;
 }
 .main-visual .mySwiper .swiper-wrapper .swiper-slide .txt .btn .btn-list{
     border: 1px solid #fff;
+    width: max-content;
     border-radius: 10000px;
     padding: 4px 12px;
 }
