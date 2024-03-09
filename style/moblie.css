@@ -163,6 +163,7 @@ header .wrap .inner-bottum .nav-opn button span {
 .main-visual .mySwiper .swiper-wrapper .swiper-slide .txt h4{
     font-size: 20px;
     padding-bottom: 10px;
+    text-wrap: nowrap;
 }
 .main-visual .mySwiper .swiper-wrapper .swiper-slide .btn{
     margin: 0 auto;
