@@ -1,0 +1,169 @@
+@media(min-width:730px){
+    .m{display: none;}
+    .pc{display: none;}
+    .tab{display: block;}
+
+    header .wrap h1{
+        height: max-content;
+        width: max-content;
+        position: absolute;
+            top:11px;
+            left: 20px;
+            transform: translateY(50%);
+    }
+
+    header .wrap .inner-bottum .srch input{
+        height: 36px;
+        width: 100%;
+        background-color: #f0f0f0;
+        border-radius: 10000px;
+        background-image: url(/img/input-bgmoblie.png);
+        background-size: 16px auto ;
+        background-position: 98% 50%;
+        text-indent: 20px;
+        font-size: 16px;
+    }
+    header .wrap .inner-ico .bell a {
+        width: unset;
+        height: unset;
+        gap: 6px;
+    }
+    header .wrap .inner-ico .cart a {
+        width: unset;
+        height: unset;
+        gap: 6px;
+    }
+    header .wrap .inner-ico .book a {
+        width: unset;
+        height: unset;
+        gap: 6px;
+    }
+    header .wrap .inner-ico {
+        align-items: center;
+        gap: 20px;
+        color: #737373;
+    }
+    header .wrap .inner-ico{
+        display: flex;
+        margin-left: auto;
+        height: max-content;
+        padding-bottom:10px ;
+    }
+
+    .main-visual .mySwiper .swiper-wrapper .swiper-slide .con{position: relative; }
+    .main-visual .mySwiper .swiper-wrapper .swiper-slide .con .txt{
+        position: absolute;
+        bottom:0;
+        left: 0;
+        transform: unset;
+        padding: 30px;
+        text-align: unset;
+        text-wrap: nowrap;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 12px;
+    }
+    .main-visual .mySwiper .swiper-wrapper .swiper-slide .txt h4{
+        font-size: 24px;
+        padding-bottom: unset
+    }
+    .main-visual .mySwiper .swiper-wrapper .swiper-slide .txt p{
+        font-size: 14px;
+        color: #fff;
+        overflow: hidden;
+
+    }
+    .main-visual .mySwiper .swiper-wrapper .swiper-slide .btn{
+        display: flex;
+        align-items: center;
+        justify-content: unset;
+        font-size: 12px;
+        margin: unset;
+    }
+    .main-visual .mySwiper .swiper-wrapper .swiper-slide .btn .btn-list{
+        border: 1px solid #fff;
+        border-radius: 10000px;
+        padding: 4px 16px;
+    }
+    .tab-menu .wrap {
+        display: flex;
+        justify-content: center;
+    }
+    .tab-menu .wrap .inner{
+        display: flex;
+        justify-content: center;
+        width: max-content;
+        gap: 24px;
+    }
+    .tab-menu .wrap .tab-ico{
+        width: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+    .s1 .wrap .grid .box:nth-last-child(6){display: block;}
+    .s1 .wrap .grid .box:nth-last-child(7){display: block;}
+    .s1 .wrap .grid .box:nth-last-child(8){display: block;}
+    .s1 .wrap{margin: 0 auto; min-width: unset; max-width: 1000px; padding: 20px}
+    /* .s1 .wrap h3{padding-left: 32px;} */
+    .s1 .wrap .grid .box a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+    .s1 .wrap .grid .box a img{
+        width: 120px;
+        border-radius: 4px;
+    }
+    .s2 .wrap .box a .tab{
+        height: 220px;
+        border-radius: 4px;
+    }
+
+    .s3 .wrap .inner{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+    
+    .s3 .wrap .inner .box .text{
+        padding: 24px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    .s3 .wrap .inner .box .text{
+        width: 100%;
+        text-align: unset;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        color: #f0f0f0;
+        transform: translateY(-50%);
+        display: block;
+        /* justify-content: center;
+        align-items: center;
+        flex-direction: column; */
+    }
+    .s3 .wrap .inner .box .text h5{
+        font-size: 28px;
+    }
+ 
+    .s4 .wrap .inner{
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+        max-width: 1200px;
+    }
+    
+    .s4 .wrap .inner .box .bottum{
+        display: flex;
+        justify-content: space-between;
+    }
+    .s4 .wrap .inner .box .bottum .con{
+        border-radius: 20px;
+    }
+}/* xxx */

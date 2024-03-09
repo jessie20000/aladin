@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+
+}
+body{
+   font-family: "Pretendard";
+}
+ ul, ol{
+    list-style: none;
+ }  
+
+ *::after *::before{box-sizing: border-box; display: block;}
+ a{
+    text-decoration: none;
+    color: inherit;
+    display:block;
+ }
+
+ img{
+   display: block;
+   max-width: 100%;
+   /* 부모요소보다 크면 튀어나가지마라 */
+   /* width:max-content 자식요소 총합의 넓이 */
+ }
+
+ button,input,select,option{
+    border-radius: 0; 
+    border: 0px;
+    background-color: rgba(0,0,0,0);
+    display: block;
+ }
+
+ #wrapper{
+    min-width: 340px;
+    max-width: 1920px;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+h3::after{
+   content: '';
+   display: block;
+   border-top: 3px solid #666;
+   border-right:3px solid #666;
+   border-radius: 1px;
+   width: 4px;
+   height: 4px;
+   transform: rotate(45deg);
+}
+h3{display: flex; align-items: center; gap: 6px;}
