@@ -150,6 +150,7 @@
     }
     .main-visual .mySwiper .swiper-wrapper .swiper-slide .txt p{
         font-size: 20px;
+        font-weight: 300;
     }
     .main-visual .mySwiper .swiper-wrapper .swiper-slide .txt .btn{
         display: flex;
